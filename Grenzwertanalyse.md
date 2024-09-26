@@ -6,16 +6,16 @@ Tipp: benutzen Sie einen [Tabellengenerator für Markdown](https://www.tablesgen
 
 ### percentage calculator
 
-| #   | Punkte | Maximale Punkte | erwartetet Ergebnis |
-| --- | ------ | --------------- | ------------------- |
-| 1   | 100    | 100             | 100                 |
-| 2   | 0      | 100             | 0                   |
-| 3   | -1     | 100             | ValueError          |
-| 4   | 101    | 100             | ValueError          |
-| 5   | '50'   | 100             | TypeError           |
-| 6   | 100    | 99              | ValueError          |
-| 7   | 100    | 101             | ValueError          |
-| 8   | 100    | '100'           | TypeError           |
+| #   | erreichte Punkte | Gesamtpunkte | erwartetes Ergebnis |
+| --- | ---------------- | ------------ | ------------------- |
+| 1   | 10               | 100          | 10                  |
+| 2   | 0                | 100          | 0                   |
+| 3   | 0                | 6            | 0                   |
+| 4   | -1               | 100          | ValueError          |
+| 5   | 0                | 5            | ValueError          |
+| 6   | 11               | 10           | ValueError          |
+| 7   | "text"           | 100          | TypeError           |
+| 8   | 10               | "text"       | TypeError           |
 
 ### noten calculator
 
