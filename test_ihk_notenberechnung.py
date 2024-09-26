@@ -35,22 +35,22 @@ testdata_note__negative_test = [
     ('text', 'TypeError')
 ]
 
-@pytest.mark.parametrize('punkte, max_punkte, expected', test_data_prozente__positive_test)
+@pytest.mark.parametrize('punkte, max_punkte, expected', testdata_prozente__positive_test)
 def test_berechne_prozente__positive_test(punkte, max_punkte, expected):
     percentage = berechne_prozente(punkte, max_punkte)
     assert percentage == expected
 
-@pytest.mark.parametrize('punkte, max_punkte, expected', test_data_prozente__negative_test)
+@pytest.mark.parametrize('punkte, max_punkte, expected', testdata_prozente__negative_test)
 def test_berechne_prozente__negative_test(punkte, max_punkte, expected):
     percentage = berechne_prozente(punkte, max_punkte)
     assert percentage == expected
 
-@pytest.mark.parametrize('prozent_werte, expected', test_note__positive_test)
+@pytest.mark.parametrize('prozent_werte, expected', testdata_note__positive_test)
 def test_note__positive_test(prozent_werte, expected):
     note = berechne_prozente(prozent_werte)
     assert note == expected
 
-@pytest.mark.parametrize('prozent_werte, expected', test_note__negative_test)
+@pytest.mark.parametrize('prozent_werte, expected', testdata_note__negative_test)
 def test_note__positive_test(prozent_werte, expected):
     note = berechne_prozente(prozent_werte)
     assert note == expected
