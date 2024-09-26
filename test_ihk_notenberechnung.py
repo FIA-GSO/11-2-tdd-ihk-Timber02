@@ -1,12 +1,12 @@
 import pytest
 
-test_data_prozente__positive_test = [
+testdata_prozente__positive_test = [
     (100, 100, 100),
     (0, 100, 0),
     (0, 6, 0)
 ]
 
-test_data_prozente__negative_test = [
+testdata_prozente__negative_test = [
     (-1, 100, 'ValueError'),
     (0, 5, 'ValueError'),
     (11, 10, 'ValueError'),
@@ -14,7 +14,7 @@ test_data_prozente__negative_test = [
     (10, 'text', 'TypeError')
 ]
 
-test_data_note__positive_test = [
+testdata_note__positive_test = [
     (100, 'sehr gut')
     (92, 'sehr gut')
     (91, 'gut')
@@ -29,7 +29,7 @@ test_data_note__positive_test = [
     (0, 'ungenügend')
 ]
 
-test_data_note__negative_test = [
+testdata_note__negative_test = [
     (-1, 'ValueError')
     (101, 'ValueError')
     ('text', 'TypeError')
