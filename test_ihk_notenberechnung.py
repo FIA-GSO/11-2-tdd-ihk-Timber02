@@ -14,7 +14,7 @@ test_data_prozente__negative_test = [
     (10, 'text', 'TypeError')
 ]
 
-test_note__positive_test = [
+test_data_note__positive_test = [
     (100, 'sehr gut')
     (92, 'sehr gut')
     (91, 'gut')
@@ -29,7 +29,7 @@ test_note__positive_test = [
     (0, 'ungenügend')
 ]
 
-test_note__negative_test = [
+test_data_note__negative_test = [
     (-1, 'ValueError')
     (101, 'ValueError')
     ('text', 'TypeError')
