@@ -19,7 +19,7 @@ Tipp: benutzen Sie einen [Tabellengenerator für Markdown](https://www.tablesgen
 
 ### noten calculator
 
-| #   | Prozentwert | erwartetet Ergebnis |
+| #   | Prozentwert | erwartetes Ergebnis |
 | --- | ----------- | ------------------- |
 | 1   | 100         | 'sehr gut'          |
 | 2   | 92          | 'sehr gut'          |
